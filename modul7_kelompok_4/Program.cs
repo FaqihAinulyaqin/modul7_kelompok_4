@@ -49,6 +49,35 @@ public class DataMahasiswa_1302220086
     }
 }
 
+public class TeamMembers_1302220086
+{
+    public class Member
+    {
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string gender { get; set; }
+        public int age { get; set; }
+        public string nim { get; set; }
+    }
+    public Member[] members { get; set; }
+
+    public void ReadJSON(string jsonString)
+    {
+        TeamMembers_1302220086 data = JsonSerializer.Deserialize<TeamMembers_1302220086>(jsonString);
+        members = data.members;
+    }
+
+    public void PrintData()
+    {
+        Console.WriteLine("Team member list:");
+        for (int i = 0;i < members.Length;i++)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"<{members[i].nim}> <{members[i].firstName} {members[i].lastName}> (<{members[i].age}> <{members[i].gender}>)");
+        }
+    }
+}
+
 class Program
 {
     static void Main(string[] args)
@@ -57,5 +86,12 @@ class Program
         DataMahasiswa_1302220086 faqih = new DataMahasiswa_1302220086();
         faqih.ReadJSON(faqihJson);
         faqih.PrintData();
+
+        Console.WriteLine();
+
+        string teamFaqihJson = "{\"members\": [{\"firstName\": \"Muhammad Faqih\", \"lastName\": \"AinulYaqin\", \"gender\": \"Male\", \"age\": 19, \"nim\": \"1302220086\"}, {\"firstName\": \"Irham\", \"lastName\": \"Baehaqi\", \"gender\": \"Male\", \"age\": 20, \"nim\": \"1302220063\"}, {\"firstName\": \"Helmy\", \"lastName\": \"Farikh Alfarizhi\", \"gender\": \"Male\", \"age\": 19, \"nim\": \"1302220077\"}, {\"firstName\": \"Naufal Ammar\", \"lastName\": \"Zaidan\", \"gender\": \"Male\", \"age\": 19, \"nim\": \"1302220052\"}]}";
+        TeamMembers_1302220086 TeamFaqih = new TeamMembers_1302220086();
+        TeamFaqih.ReadJSON(teamFaqihJson);
+        TeamFaqih.PrintData();
     }
 }
