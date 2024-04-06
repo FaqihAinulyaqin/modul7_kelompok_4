@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Data;
 using System.Runtime.InteropServices.Marshalling;
 using System.Text.Json;
@@ -82,32 +81,7 @@ public class TeamMembers_1302220086
 
 public class GlossaryItem_1302220086
 {
-    string GlossaryItem = @"{
-        ""glossary"": {
-            ""title"": ""example glossary"",
-		    ""GlossDiv"": {
-                ""title"": ""S"",
-			    ""GlossList"": {
-                    ""GlossEntry"": {
-                        ""ID"": ""SGML"",
-					    ""SortAs"": ""SGML"",
-					    ""GlossTerm"": ""Standard Generalized Markup Language"",
-					    ""Acronym"": ""SGML"",
-					    ""Abbrev"": ""ISO 8879:1986"",
-					    ""GlossDef"": {
-                            ""para"": ""A meta-markup language, used to create markup languages such as DocBook."",
-						    ""GlossSeeAlso"": [""GML"", ""XML""]
-                        },
-					    ""GlossSee"": ""markup""
-                    }
-                }
-            }
-        }
-    }";
-    public void ReadJSON(string jsonString)
-    {
-        dynamic data = JsonConvert.DeserializeObject(jsonString);
-    }
+
 }
 
 class Program
