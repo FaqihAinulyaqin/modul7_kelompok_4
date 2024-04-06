@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Data;
 using System.Runtime.InteropServices.Marshalling;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 public class DataMahasiswa_1302220086
 {
@@ -75,6 +77,36 @@ public class TeamMembers_1302220086
             Console.WriteLine();
             Console.WriteLine($"<{members[i].nim}> <{members[i].firstName} {members[i].lastName}> (<{members[i].age}> <{members[i].gender}>)");
         }
+    }
+}
+
+public class GlossaryItem_1302220086
+{
+    string GlossaryItem = @"{
+        ""glossary"": {
+            ""title"": ""example glossary"",
+		    ""GlossDiv"": {
+                ""title"": ""S"",
+			    ""GlossList"": {
+                    ""GlossEntry"": {
+                        ""ID"": ""SGML"",
+					    ""SortAs"": ""SGML"",
+					    ""GlossTerm"": ""Standard Generalized Markup Language"",
+					    ""Acronym"": ""SGML"",
+					    ""Abbrev"": ""ISO 8879:1986"",
+					    ""GlossDef"": {
+                            ""para"": ""A meta-markup language, used to create markup languages such as DocBook."",
+						    ""GlossSeeAlso"": [""GML"", ""XML""]
+                        },
+					    ""GlossSee"": ""markup""
+                    }
+                }
+            }
+        }
+    }";
+    public void ReadJSON(string jsonString)
+    {
+        dynamic data = JsonConvert.DeserializeObject(jsonString);
     }
 }
 

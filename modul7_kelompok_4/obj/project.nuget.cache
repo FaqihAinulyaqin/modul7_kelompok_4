@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "d0uw5dHgD0T79ZFT9opJ4cpI5pkqSb1oHN5yTwTcUTMJXBYHsDeFGGhNGnCSYNibaCvGw25NDh9RMzayRqN6hQ==",
+  "dgSpecHash": "eNX5KFaeJn5HCz+IRgIGCMq0lxM8GvmAi6RKASl4qIK1Nehln2q91ZeQ9OCiqsOwaQpjOsgurwIu14sPCDI+jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mfaqi\\Documents\\Kuliah\\C#\\modul7_kelompok_4\\modul7_kelompok_4\\modul7_kelompok_4.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mfaqi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
