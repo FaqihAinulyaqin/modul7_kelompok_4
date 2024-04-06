@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mfaqi\\Documents\\Kuliah\\C#\\modul7_kelompok_4\\",
+  "WorkspaceRootPath": "D:\\COOLYEAH\\Semester 4\\KPL\\TP \u0026 Latihan\\modul7_kelompok_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE805764-3E11-4E19-AE69-341E205C44E1}|modul7_kelompok_4\\modul7_kelompok_4.csproj|c:\\users\\mfaqi\\documents\\kuliah\\c#\\modul7_kelompok_4\\modul7_kelompok_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE805764-3E11-4E19-AE69-341E205C44E1}|modul7_kelompok_4\\modul7_kelompok_4.csproj|d:\\coolyeah\\semester 4\\kpl\\tp \u0026 latihan\\modul7_kelompok_4\\modul7_kelompok_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE805764-3E11-4E19-AE69-341E205C44E1}|modul7_kelompok_4\\modul7_kelompok_4.csproj|solutionrelative:modul7_kelompok_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mfaqi\\Documents\\Kuliah\\C#\\modul7_kelompok_4\\modul7_kelompok_4\\Program.cs",
+              "DocumentMoniker": "D:\\COOLYEAH\\Semester 4\\KPL\\TP \u0026 Latihan\\modul7_kelompok_4\\modul7_kelompok_4\\Program.cs",
               "RelativeDocumentMoniker": "modul7_kelompok_4\\Program.cs",
-              "ToolTip": "C:\\Users\\mfaqi\\Documents\\Kuliah\\C#\\modul7_kelompok_4\\modul7_kelompok_4\\Program.cs",
+              "ToolTip": "D:\\COOLYEAH\\Semester 4\\KPL\\TP \u0026 Latihan\\modul7_kelompok_4\\modul7_kelompok_4\\Program.cs",
               "RelativeToolTip": "modul7_kelompok_4\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAkwDYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T00:44:03.24Z",
               "EditorCaption": ""
