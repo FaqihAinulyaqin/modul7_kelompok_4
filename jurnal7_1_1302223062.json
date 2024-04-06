@@ -1,0 +1,15 @@
+{
+   "firstName": "Francisca",
+   "lastName": "Manope",
+   "gender": "female",
+   "age": 20,
+   "address": {
+       "streetAddress": "Umayah II",
+       "city": "Bandung",
+       "state": "West Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CREI2E4", "name": "Basis Data" }
+   ]
+}
