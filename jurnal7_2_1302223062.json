@@ -1,0 +1,45 @@
+{
+  "members" : [
+    {
+      "firstName": "Francisca",
+      "lastName": "Manope",
+      "gender": "female",
+      "age": 20,
+      "nim": "130223062"
+    },
+    {
+       "firstName": "Muhammad",
+       "lastName": "Ainulyaqin",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302220086"
+    },
+    {
+       "firstName": "Helmy",
+       "lastName": "Alfarizhi",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302220077"
+    },
+    {
+      "firstName": "Irham",
+      "lastName": "Baehaqi",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302220063"
+   },
+   {
+      "firstName": "Ayu",
+      "lastName": "Lestari",
+      "gender": "female",
+      "age": 20,
+      "nim": "1302223008"
+   },{
+      "firstName": "Naufal",
+      "lastName": "Zaidan",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302220052"
+   }
+  ]
+}
