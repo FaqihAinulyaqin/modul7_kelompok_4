@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\mfaqi\Documents\Kuliah\C#\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.exe
 C:\Users\mfaqi\Documents\Kuliah\C#\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.deps.json
 C:\Users\mfaqi\Documents\Kuliah\C#\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.runtimeconfig.json
@@ -13,3 +14,20 @@ C:\Users\mfaqi\Documents\Kuliah\C#\modul7_kelompok_4\modul7_kelompok_4\obj\Debug
 C:\Users\mfaqi\Documents\Kuliah\C#\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.pdb
 C:\Users\mfaqi\Documents\Kuliah\C#\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.genruntimeconfig.cache
 C:\Users\mfaqi\Documents\Kuliah\C#\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\ref\modul7_kelompok_4.dll
+=======
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.exe
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.deps.json
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.runtimeconfig.json
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.dll
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\bin\Debug\net8.0\modul7_kelompok_4.pdb
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.AssemblyInfoInputs.cache
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.AssemblyInfo.cs
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.csproj.CoreCompileInputs.cache
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.sourcelink.json
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.dll
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\refint\modul7_kelompok_4.dll
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.pdb
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\modul7_kelompok_4.genruntimeconfig.cache
+D:\COOLYEAH\Semester 4\KPL\TP & Latihan\modul7_kelompok_4\modul7_kelompok_4\obj\Debug\net8.0\ref\modul7_kelompok_4.dll
+>>>>>>> a0a88280d2af72aea5d85abf25d6fcb33d5e8ee7

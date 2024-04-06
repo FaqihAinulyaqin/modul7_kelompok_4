@@ -55,19 +55,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mfaqi\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mfaqi\\Documents\\Kuliah\\C#\\modul7_kelompok_4\\modul7_kelompok_4\\modul7_kelompok_4.csproj",
+      "projectUniqueName": "D:\\COOLYEAH\\Semester 4\\KPL\\TP & Latihan\\modul7_kelompok_4\\modul7_kelompok_4\\modul7_kelompok_4.csproj",
       "projectName": "modul7_kelompok_4",
-      "projectPath": "C:\\Users\\mfaqi\\Documents\\Kuliah\\C#\\modul7_kelompok_4\\modul7_kelompok_4\\modul7_kelompok_4.csproj",
-      "packagesPath": "C:\\Users\\mfaqi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mfaqi\\Documents\\Kuliah\\C#\\modul7_kelompok_4\\modul7_kelompok_4\\obj\\",
+      "projectPath": "D:\\COOLYEAH\\Semester 4\\KPL\\TP & Latihan\\modul7_kelompok_4\\modul7_kelompok_4\\modul7_kelompok_4.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\COOLYEAH\\Semester 4\\KPL\\TP & Latihan\\modul7_kelompok_4\\modul7_kelompok_4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mfaqi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -119,7 +119,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
