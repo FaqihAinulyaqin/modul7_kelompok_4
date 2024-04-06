@@ -1,76 +1,46 @@
 ﻿using System;
+using System.IO;
+using System.Net.Sockets;
 using System.Text.Json;
 
-public class DataMahasiswa_1302220077
+namespace modul7_kelompok_4;
+
+public class DataMahasiswa1302220052
 {
-    public class Nama
-    {
-        public string depan { get; set; }
-        public string belakang { get; set; }
-    }
-
-    public class address
-    {
-        public string streetAddress { get; set; }
-        public string city { get; set; }
-        public string state { get; set; }
-    }
-
-    public class MataKuliah
-    {
-        public string code { get; set; }
-        public string name { get; set; }
-    }
-
-    public MataKuliah[] courses { get; set; }
-    public Nama nama { get; set; }
-    public address alamat { get; set; }
-    public string gender { get; set; }
-    public string umur { get; set; }
-
-    public void ReadJSON(string jsonString)
-    {
-        DataMahasiswa_1302220077 data = JsonSerializer.Deserialize<DataMahasiswa_1302220077>(jsonString);
-        courses = data.courses;
-        nama = data.nama;
-        alamat = data.alamat;
-        gender = data.gender;
-        umur = data.umur;
-    }
-
-    public void PrintData()
-    {
-        Console.WriteLine($"Nama : {nama.depan} {nama.belakang}");
-        Console.WriteLine($"Alamat : {alamat.streetAddress} {alamat.city} {alamat.state}");
-        Console.WriteLine("gender : " + gender);
-        Console.WriteLine("Umur : " + umur);
-        Console.WriteLine("Daftar Mata Kuliah Yang Diambil: ");
-        for (int i = 0; i < courses.Length; i++) 
-        {
-            Console.WriteLine($"MK {i+1} {courses[i].code} - {courses[i].name}");
-        }
-    }
+    public required string firstName { get; set; }
+    public required string lastName { get; set; }
+    public required string gender { get; set; }
+    public required Address Address { get; set; }
+    public required List<Course> courses { get; set; }
+    public int Age { get; set; }
 }
 
-public class program
+public class Address
 {
-    static void Main(string[] args)
-    {
-        string mahasiswaJson = "{\"nama\": {\"depan\": \"Helmy\", \"belakang\": \"Farikh Alfarizhi\"}," +
-            "\"alamat\": {\"streetAddress\" : \"Bumi Ciborerang Indah\", \"city\" : \"Bandung\", \"state\" : \"Jawa Barat\"} , " +
-            "\"gender\": \"Laki-Laki\"," +
-            "\"umur\": \"20\", "+
-            "\"courses\": [{\"code\": \"CRI2C4\", \"name\": \"Konstruksi Perangkat Lunak\"}, " +
-            "{\"code\": \"CRI2E4\", \"name\": \"Basis Data\"}, " +
-            "{\"code\": \"CRI3J2\", \"name\": \"Bahasa Inggris: Writing and Speaking\"}, " +
-            "{\"code\": \"CRI3B4\", \"name\": \"Pemrograman Berbasis Objek\"}, " +
-            "{\"code\": \"CRJ2H3\", \"name\": \"Pengalaman Pengguna\"}, " +
-            "{\"code\": \"CRI2F2\", \"name\": \"Proyek Tingkat II\"}, " +
-            "{\"code\": \"CRJ2G3\", \"name\": \"Dasar Jaringan Komputer\"}]}";
+    public required string StreetAddress { get; set; }
+    public required string City { get; set; }
+    public required string State { get; set; }
+}
 
-        DataMahasiswa_1302220077 mahasiswa = new DataMahasiswa_1302220077();
-        mahasiswa.ReadJSON(mahasiswaJson);
-        mahasiswa.PrintData();
+public class Course
+{
+    public required string Code { get; set; }
+    public required string Name { get; set; }
+}
+
+public void ReadJSON()
+{
+    string json = File.ReadAllText("jurnal7_1_1302220052.json");
+    var dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302220052>(json);
+
+    if (dataMahasiswa != null)
+    {
+        Console.WriteLine($"Name: {dataMahasiswa.firstName} {dataMahasiswa.lastName}");
+        Console.WriteLine($"gender: {dataMahasiswa.gender}");
+        Console.WriteLine($"Age: {dataMahasiswa.Age}");
+        Console.WriteLine($"Address: {dataMahasiswa.Address}");
+        Console.WriteLine($"Street: {dataMahasiswa.Address.StreetAddress}");
+        Console.WriteLine($"City: {dataMahasiswa.Address.City}");
+        Console.WriteLine($"State: {dataMahasiswa.Address.State}");
     }
- 
 }
